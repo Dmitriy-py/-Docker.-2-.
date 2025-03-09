@@ -58,3 +58,11 @@ networks.
 Добавьте переменную окружения с путем до файла с кастомными настройками (должен быть в томе), в самом файле пропишите логин=<ваши фамилия и инициалы> пароль=netology.
 Обеспечьте внешний доступ к порту 3000 c порта 80 докер-сервера.
 
+
+![Снимок экрана (531)](https://github.com/user-attachments/assets/504be6a9-d39c-4592-bfae-f70206ff0c7d)
+
+![Снимок экрана (532)](https://github.com/user-attachments/assets/71d51afd-c851-4151-b643-a2566fe819c8)
+
+![Снимок экрана (533)](https://github.com/user-attachments/assets/51fc35bb-512d-46d3-a40f-8f51bce09e5c)
+
+![Снимок экрана (534)](https://github.com/user-attachments/assets/bb97f953-aa53-4e21-a836-fb8184254bad)
