@@ -33,7 +33,10 @@ networks.
 Добавьте необходимые тома с данными и конфигурацией (конфигурация лежит в репозитории в директории 6-04/prometheus ).
 Обеспечьте внешний доступ к порту 9090 c докер-сервера.
 
+![Снимок экрана (527)](https://github.com/user-attachments/assets/27ba64c7-c91e-4ead-a801-f9d07e352e0e)
 
+
+![Снимок экрана (526)](https://github.com/user-attachments/assets/d4979e8c-b00f-4169-add9-e8afbcc2c1b3)
 
 ### Задание 4
 
