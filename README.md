@@ -96,3 +96,32 @@ klimovdg-netology-grafana
 Эта реализация обеспечивает более надежную и управляемую среду для наших Prometheus, Pushgateway и Grafana.
 
 
+
+### Задание 7
+Выполните действия.
+
+Выполните запрос в Pushgateway для помещения метрики <ваши фамилия и инициалы> со значением 5 в Prometheus: echo "<ваши фамилия и инициалы> 5" | curl --data-binary @- http://localhost:9091/metrics/job/netology.
+Залогиньтесь в Grafana с помощью логина и пароля из предыдущего задания.
+Cоздайте Data Source Prometheus (Home -> Connections -> Data sources -> Add data source -> Prometheus -> указать "Prometheus server URL = http://prometheus:9090" -> Save & Test).
+Создайте график на основе добавленной в пункте 5 метрики (Build a dashboard -> Add visualization -> Prometheus -> Select metric -> Metric explorer -> <ваши фамилия и инициалы -> Apply.
+В качестве решения приложите:
+
+docker-compose.yml целиком;
+скриншот команды docker ps после запуске docker-compose.yml;
+скриншот графика, постоенного на основе вашей метрики.
+
+
+![Снимок экрана (545)](https://github.com/user-attachments/assets/c9a8e23a-d203-4929-85ac-a9a9eebf90a4)
+
+![Снимок экрана (546)](https://github.com/user-attachments/assets/c707cd13-b141-4a8c-bd30-7d29e60d652e)
+
+![Снимок экрана (547)](https://github.com/user-attachments/assets/2782d9bb-7d9b-4862-b7fe-142f3d8beed2)
+
+![Снимок экрана (544)](https://github.com/user-attachments/assets/559b6bc2-c249-4ca3-bf56-3c6636079ee3)
+
+![Снимок экрана (543)](https://github.com/user-attachments/assets/89fdc88d-5426-4362-9ef3-56ee59810b08)
+
+![Снимок экрана (542)](https://github.com/user-attachments/assets/d72fa0f2-3095-41d0-b680-94a44bdb6384)
+
+![Снимок экрана (541)](https://github.com/user-attachments/assets/d248adf4-b51c-4d50-93e5-755f0922593e)
+
